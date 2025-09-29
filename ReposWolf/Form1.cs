@@ -15,5 +15,10 @@ namespace ReposWolf
             string text = textBox1.Text;
             MessageBox.Show(text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
