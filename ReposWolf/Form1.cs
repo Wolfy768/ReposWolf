@@ -12,7 +12,8 @@ namespace ReposWolf
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World!");
+            string text = textBox1.Text;
+            MessageBox.Show(text);
         }
     }
 }
